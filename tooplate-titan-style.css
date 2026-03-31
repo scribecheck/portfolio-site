@@ -16,19 +16,19 @@ https://www.tooplate.com/view/2147-titan-folio
 :root {
     --glass-bg: #ffffff14;
     --glass-border: #ffffff26;
-    --accent-blue: #76a9fa;
-    --accent-blue-dark: #4f83f7;
+    --accent-blue: #4b9acb;
+    --accent-blue-dark: #004a99;
     --accent-glow: #76a9fa4d;
     --text-primary: #ffffff;
     --text-secondary: #ffffffcc;
-    --text-tertiary: #ffffff99;
+    --text-tertiary: #ffffffb7;
     --background: #76a9fa1a;
-    --nav-background: #0f1923f2;
+    --nav-background: #0d1119f2;
 }
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: linear-gradient(135deg, #0a0a0f 0%, #151520 25%, #1a1a2e 50%, #16213e 75%, #0f3460 100%);
+    background: linear-gradient(135deg, #070707 0%, #000000 25%, #131414 50%, #16213e 75%, #0f3460 100%);
     background-attachment: fixed;
     color: var(--text-primary);
     overflow-x: hidden;
@@ -37,7 +37,7 @@ body {
 }
 
 p a {
-	color: #FFF;
+	color: #ffffff;
 }
 
 /* Container */
@@ -55,7 +55,7 @@ nav {
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
-    background: #0f1923cc;
+    background: var(--nav-background);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid #ffffff1a;
@@ -584,7 +584,6 @@ section {
 }
 
 .stat-card:hover {
-    transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -621,7 +620,7 @@ section {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url('images/about-profile.jpg');
+    background-image: url('images/profile-pic-2-edit.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
@@ -643,25 +642,7 @@ section {
     transition: opacity 0.3s ease;
 }
 
-.about-image:hover::before {
-    opacity: 1;
-}
 
-.about-image::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: conic-gradient(from 0deg, 
-        transparent 0deg,
-        rgba(255,255,255,0.1) 90deg,
-        transparent 180deg,
-        rgba(255,255,255,0.05) 270deg,
-        transparent 360deg);
-    animation: spin 4s linear infinite;
-}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
