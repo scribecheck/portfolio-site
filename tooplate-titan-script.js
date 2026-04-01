@@ -188,3 +188,9 @@ function initTimeline() {
 
 // Initialize timeline when DOM is ready
 document.addEventListener('DOMContentLoaded', initTimeline);
+
+// Light Mode Toggle
+function LightMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}
