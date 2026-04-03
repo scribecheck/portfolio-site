@@ -1252,6 +1252,7 @@ section {
 
 .portfolio-image {
     height: 250px;
+    width: auto;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -1296,15 +1297,15 @@ section {
 
 /* Specific portfolio images */
 .portfolio-image.ecommerce {
-    background-image: url('images/portfolio-ecommerce.jpg');
+    background-image: url('images/blog-pic.png');
 }
 
 .portfolio-image.analytics {
-    background-image: url('images/portfolio-analytics.jpg');
+    background-image: url('images/cat-website.png');
 }
 
 .portfolio-image.music {
-    background-image: url('images/portfolio-music.jpg');
+    background-image: url('images/book-website.png');
 }
 
 .portfolio-content {
