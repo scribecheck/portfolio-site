@@ -16,7 +16,7 @@ https://www.tooplate.com/view/2147-titan-folio
 :root {
     --glass-bg: #ffffff14;
     --glass-border: #ffffff26;
-    --accent-blue: #4b9acb;
+    --accent-blue: #4bcbb8;
     --accent-blue-dark: #004a99;
     --accent-glow: #76a9fa4d;
     --text-primary: #ffffff;
@@ -41,7 +41,7 @@ https://www.tooplate.com/view/2147-titan-folio
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: linear-gradient(135deg, #070707 0%, #000000 25%, #131414 50%, #16213e 75%, #0f3460 100%);
+    background: linear-gradient(135deg, #070707 0%, #090d2b 25%, #131414 50%, #16213e 75%, #0f3460 100%);
     background-attachment: fixed;
     color: var(--text-primary);
     overflow-x: hidden;
