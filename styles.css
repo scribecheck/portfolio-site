@@ -1297,15 +1297,15 @@ section {
 
 /* Specific portfolio images */
 .portfolio-image.ecommerce {
-    background-image: url('images/blog-pic.png');
+    background-image: url('images/blog-pic2.jpg');
 }
 
 .portfolio-image.analytics {
-    background-image: url('images/cat-website.png');
+    background-image: url('images/lulu-adult.jpeg');
 }
 
 .portfolio-image.music {
-    background-image: url('images/book-website.png');
+    background-image: url('images/book-website2.png');
 }
 
 .portfolio-content {
